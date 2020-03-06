@@ -26,11 +26,6 @@
     export PATH="$HOME/.cargo/bin:$PATH"
     export PATH="$HOME/node_modules/.bin:$PATH"
 
-#### GO #############################################
-    # export GOROOT=$(find /usr/local/Cellar/go -name "libexec" -maxdepth 2 | sort -r | head -1)
-    export GOPATH="$HOME/go"
-    export PATH="$GOPATH/bin:$PATH"
-
 #### BAT ############################################
     export BAT_PAGER="less -R"
     export BAT_CONFIG_PATH="$HOME/.config/bat/bat.conf"
