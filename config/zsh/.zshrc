@@ -15,6 +15,7 @@
     # Include hidden files.
     _comp_options+=(globdots)
 ###################### History ######################
+    export HISTFILE="$HOME/.config/hist/histfile"
     HISTFILE="$HISTFILE"
     HISTSIZE=SAVEHIST=10000000
     setopt appendhistory extendedhistory incappendhistory
