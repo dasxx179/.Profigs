@@ -2,7 +2,8 @@
     "layouts": [
         "tall",
         "fullscreen",
-        "bsp"
+        "bsp",
+        "row"
     ],
     "Valid modifiers are": [
         "option",
